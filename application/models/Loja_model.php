@@ -50,6 +50,7 @@ class Loja_model extends CI_Model
             'produtos.produto_id',
             'produtos.produto_nome',
             'produtos.produto_valor',
+            'produtos.produto_meta_link',
             'produtos_fotos.foto_caminho',
         ]);
         $this->db->join('produtos_fotos', 'produtos_fotos.foto_produto_id = produtos.produto_id');

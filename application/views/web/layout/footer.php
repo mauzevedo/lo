@@ -81,7 +81,7 @@
                                         <?php $sistema = info_header_footer(); ?>
                                         <li>
                                             <span>Endereço: </span>
-                                            <?php echo 'CEP&nbsp;' . $sistema->sistema_cep .' '.$sistema->sistema_endereco .', '.$sistema->sistema_numero; ?>
+                                            <?php echo 'CEP&nbsp;' . $sistema->sistema_cep . ' ' . $sistema->sistema_endereco . ', ' . $sistema->sistema_numero; ?>
                                             <?php echo $sistema->sistema_cidade . ' - ' . $sistema->sistema_estado; ?>
                                         </li>
                                         <li>
@@ -162,12 +162,12 @@
                                     <div class="footer-newsletter">
                                         <h4>Sign up to newsletter</h4>
                                         <form action="#" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="footer-subscribe-form validate" target="_blank" novalidate>
-                                           <div id="mc_embed_signup_scroll">
-                                              <div id="mc-form" class="mc-form subscribe-form form-group" >
-                                                <input id="mc-email" type="email" autocomplete="off" placeholder="Enter your email" />
-                                                <button  class="btn" id="mc-submit">Subscribe</button>
-                                              </div>
-                                           </div>
+                                            <div id="mc_embed_signup_scroll">
+                                                <div id="mc-form" class="mc-form subscribe-form form-group">
+                                                    <input id="mc-email" type="email" autocomplete="off" placeholder="Enter your email" />
+                                                    <button class="btn" id="mc-submit">Subscribe</button>
+                                                </div>
+                                            </div>
                                         </form>
                                     </div>
                                     <!-- Footer Newsletter Area End Here -->
@@ -228,7 +228,7 @@
             </div>
             <!-- Footer Area End Here -->
             <!-- Begin Quick View | Modal Area -->
-            <div class="modal fade modal-wrapper" id="exampleModalCenter" >
+            <div class="modal fade modal-wrapper" id="exampleModalCenter">
                 <div class="modal-dialog modal-dialog-centered" role="document">
                     <div class="modal-content">
                         <div class="modal-body">
@@ -237,7 +237,7 @@
                             </button>
                             <div class="modal-inner-area row">
                                 <div class="col-lg-5 col-md-6 col-sm-6">
-                                   <!-- Product Details Left -->
+                                    <!-- Product Details Left -->
                                     <div class="product-details-left">
                                         <div class="product-details-images slider-navigation-1">
                                             <div class="lg-image">
@@ -259,7 +259,7 @@
                                                 <img src="images/product/large-size/6.jpg" alt="product image">
                                             </div>
                                         </div>
-                                        <div class="product-details-thumbs slider-thumbs-1">                                        
+                                        <div class="product-details-thumbs slider-thumbs-1">
                                             <div class="sm-image"><img src="images/product/small-size/1.jpg" alt="product image thumb"></div>
                                             <div class="sm-image"><img src="images/product/small-size/2.jpg" alt="product image thumb"></div>
                                             <div class="sm-image"><img src="images/product/small-size/3.jpg" alt="product image thumb"></div>
@@ -337,53 +337,60 @@
                         </div>
                     </div>
                 </div>
-            </div>   
+            </div>
             <!-- Quick View | Modal Area End Here -->
-        </div>
-        <!-- Body Wrapper End Here -->
-        <!-- jQuery-V1.12.4 -->
-        <script src="<?php echo base_url('public/web/js/vendor/jquery-1.12.4.min.js'); ?>"></script>
-        <!-- Popper js -->
-        <script src="<?php echo base_url('public/web/js/vendor/popper.min.js'); ?>"></script>
-        <!-- Bootstrap V4.1.3 Fremwork js -->
-        <script src="<?php echo base_url('public/web/js/bootstrap.min.js'); ?>"></script>
-        <!-- Ajax Mail js -->
-        <script src="<?php echo base_url('public/web/js/ajax-mail.js'); ?>"></script>
-        <!-- Meanmenu js -->
-        <script src="<?php echo base_url('public/web/js/jquery.meanmenu.min.js'); ?>"></script>
-        <!-- Wow.min js -->
-        <script src="<?php echo base_url('public/web/js/wow.min.js'); ?>"></script>
-        <!-- Slick Carousel js -->
-        <script src="<?php echo base_url('public/web/js/slick.min.js'); ?>"></script>
-        <!-- Owl Carousel-2 js -->
-        <script src="<?php echo base_url('public/web/js/owl.carousel.min.js'); ?>"></script>
-        <!-- Magnific popup js -->
-        <script src="<?php echo base_url('public/web/js/jquery.magnific-popup.min.js'); ?>"></script>
-        <!-- Isotope js -->
-        <script src="<?php echo base_url('public/web/js/isotope.pkgd.min.js'); ?>"></script>
-        <!-- Imagesloaded js -->
-        <script src="<?php echo base_url('public/web/js/imagesloaded.pkgd.min.js'); ?>"></script>
-        <!-- Mixitup js -->
-        <script src="<?php echo base_url('public/web/js/jquery.mixitup.min.js'); ?>"></script>
-        <!-- Countdown -->
-        <script src="<?php echo base_url('public/web/js/jquery.countdown.min.js'); ?>"></script>
-        <!-- Counterup -->
-        <script src="<?php echo base_url('public/web/js/jquery.counterup.min.js'); ?>"></script>
-        <!-- Waypoints -->
-        <script src="<?php echo base_url('public/web/js/waypoints.min.js'); ?>"></script>
-        <!-- Barrating -->
-        <script src="<?php echo base_url('public/web/js/jquery.barrating.min.js'); ?>"></script>
-        <!-- Jquery-ui -->
-        <script src="<?php echo base_url('public/web/js/jquery-ui.min.js'); ?>"></script>
-        <!-- Venobox -->
-        <script src="<?php echo base_url('public/web/js/venobox.min.js'); ?>"></script>
-        <!-- Nice Select js -->
-        <script src="<?php echo base_url('public/web/js/jquery.nice-select.min.js'); ?>"></script>
-        <!-- ScrollUp js -->
-        <script src="<?php echo base_url('public/web/js/scrollUp.min.js'); ?>"></script>
-        <!-- Main/Activator js -->
-        <script src="<?php echo base_url('public/web/js/main.js'); ?>"></script>
-    </body>
+            </div>
+            <!-- Body Wrapper End Here -->
+            <!-- jQuery-V1.12.4 -->
+            <script src="<?php echo base_url('public/web/js/vendor/jquery-1.12.4.min.js'); ?>"></script>
+            <!-- Popper js -->
+            <script src="<?php echo base_url('public/web/js/vendor/popper.min.js'); ?>"></script>
+            <!-- Bootstrap V4.1.3 Fremwork js -->
+            <script src="<?php echo base_url('public/web/js/bootstrap.min.js'); ?>"></script>
+            <!-- Ajax Mail js -->
+            <script src="<?php echo base_url('public/web/js/ajax-mail.js'); ?>"></script>
+            <!-- Meanmenu js -->
+            <script src="<?php echo base_url('public/web/js/jquery.meanmenu.min.js'); ?>"></script>
+            <!-- Wow.min js -->
+            <script src="<?php echo base_url('public/web/js/wow.min.js'); ?>"></script>
+            <!-- Slick Carousel js -->
+            <script src="<?php echo base_url('public/web/js/slick.min.js'); ?>"></script>
+            <!-- Owl Carousel-2 js -->
+            <script src="<?php echo base_url('public/web/js/owl.carousel.min.js'); ?>"></script>
+            <!-- Magnific popup js -->
+            <script src="<?php echo base_url('public/web/js/jquery.magnific-popup.min.js'); ?>"></script>
+            <!-- Isotope js -->
+            <script src="<?php echo base_url('public/web/js/isotope.pkgd.min.js'); ?>"></script>
+            <!-- Imagesloaded js -->
+            <script src="<?php echo base_url('public/web/js/imagesloaded.pkgd.min.js'); ?>"></script>
+            <!-- Mixitup js -->
+            <script src="<?php echo base_url('public/web/js/jquery.mixitup.min.js'); ?>"></script>
+            <!-- Countdown -->
+            <script src="<?php echo base_url('public/web/js/jquery.countdown.min.js'); ?>"></script>
+            <!-- Counterup -->
+            <script src="<?php echo base_url('public/web/js/jquery.counterup.min.js'); ?>"></script>
+            <!-- Waypoints -->
+            <script src="<?php echo base_url('public/web/js/waypoints.min.js'); ?>"></script>
+            <!-- Barrating -->
+            <script src="<?php echo base_url('public/web/js/jquery.barrating.min.js'); ?>"></script>
+            <!-- Jquery-ui -->
+            <script src="<?php echo base_url('public/web/js/jquery-ui.min.js'); ?>"></script>
+            <!-- Venobox -->
+            <script src="<?php echo base_url('public/web/js/venobox.min.js'); ?>"></script>
+            <!-- Nice Select js -->
+            <script src="<?php echo base_url('public/web/js/jquery.nice-select.min.js'); ?>"></script>
+            <!-- ScrollUp js -->
+            <script src="<?php echo base_url('public/web/js/scrollUp.min.js'); ?>"></script>
+            <script src="<?php echo base_url('public/assets/js/util.js'); ?>"></script>
+            <?php if (isset($scripts)) : ?>
+                <?php foreach ($scripts as $script) : ?>
+                    <script src="<?php echo base_url('public/assets/' . $script); ?>"></script>
+                <?php endforeach; ?>
+            <?php endif; ?>
+            <!-- Main/Activator js -->
+            <script src="<?php echo base_url('public/web/js/main.js'); ?>"></script>
+            </body>
 
-<!-- index30:23-->
-</html>
+            <!-- index30:23-->
+
+            </html>

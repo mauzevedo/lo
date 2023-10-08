@@ -15,19 +15,20 @@ class Produto extends CI_Controller
             redirect('/');
         } else {
             $data = array(
-                echo '<pre>';
-                print_r($data);
-                exit();
-
+                
                 'titulo' => 'Cadastrar produto',
                 'produto' => $produto,
                 'scripts' => array(
                     'mask/jquery.mask.min.js',
                     'mask/custom.js',
+                    'js/add_produto.js',
                 ),
             );
             $data['fotos_produtos'] = $this->core_model->get_all('produtos_fotos', array('foto_produto_id' => $produto->produto_id));
-
+            //echo '<pre>';
+            //print_r($data);
+            //exit();
+            
             $this->load->view('web/layout/header', $data);
             $this->load->view('web/produto');
             $this->load->view('web/layout/footer');
